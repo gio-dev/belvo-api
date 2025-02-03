@@ -268,7 +268,7 @@ class InstitutionsPaginatedResponseResults implements ModelInterface, ArrayAcces
     public function getStatusAllowableValues()
     {
         return [
-            self::STATUS_HEALTHY
+            self::STATUS_HEALTHY,
             self::STATUS_DOWN
         ];
     }
